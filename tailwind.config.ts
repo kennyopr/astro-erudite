@@ -7,8 +7,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Geist', ...defaultTheme.fontFamily.sans],
-        mono: ['Geist Mono', ...defaultTheme.fontFamily.mono],
+        sans: ['neue-haas-grotesk-display', ...defaultTheme.fontFamily.sans],
+        mono: ['neue-haas-grotesk-display', ...defaultTheme.fontFamily.mono],
       },
       colors: {
         background: 'hsl(var(--background))',
